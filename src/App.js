@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <nav className="navbar navbar-light bg-light">
         <div className="container-fluid">
-          <div className="navbar-brand" href="#"><b>Food Remaining:</b> 25</div>
+          <div className="navbar-brand ms-auto" href="#"><b>Food Remaining:</b> 25</div>
         </div>
       </nav>
       <div className='container py-5'>
