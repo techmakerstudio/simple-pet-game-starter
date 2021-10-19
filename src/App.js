@@ -13,7 +13,7 @@ function App() {
       </nav>
       <div className='container py-5'>
         <div className='row'>
-          { data.map((info) => <Dog info={info} />)}
+          { data.map((info) => <Dog key={info.id} info={info} />)}
         </div>
       </div>
     </div>
